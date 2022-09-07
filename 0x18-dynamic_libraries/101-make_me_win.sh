@@ -1,3 +1,3 @@
 #!/bin/bash
-./gm 9 8 10 24 75 9
-d52e6c18e0723f5b025a75dea19ef365  gm
+wget -P .. https://raw.githubusercontent.com/monoprosito/holbertonschool-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
+export LD_PRELOAD="$PWD/../libgiga.so"
